@@ -1,0 +1,22 @@
+session_name: dev
+windows:
+  - window_name: dev
+    layout: tiled
+    panes:
+      - cd ~/projects/ && vim .
+      - cd ~/projects/
+
+  - window_name: stage
+    layout: tiled
+    panes:
+      - 
+      - 
+  - window_name: prod
+    layout: tiled
+    panes:
+      - 
+      - 
+  - window_name: extra
+    layout: tiled
+    panes:
+      - 

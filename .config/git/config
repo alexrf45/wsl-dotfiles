@@ -1,0 +1,19 @@
+[user]
+	email = fonalex45@gmail.com
+	name = alexrf45
+	signingKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAK4NU5cRWcgtrWLQQ+ipVSHgIIlEVVPPfAPlygzNnaJ windows dev"
+
+
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[alias]
+	logs = log --show-signature
+
+[core]
+	editor = nvim
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = /home/f0nzy/.config/git/allowed_signers
