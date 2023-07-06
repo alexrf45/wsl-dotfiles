@@ -8,8 +8,7 @@ alias tree-overview='tree -D -L 2'
 
 #tmux
 alias t='tmux new -f ~/.tmux.conf -s $1'
-alias tmux-session='tmuxp load ~/.config/tmuxp/dev.yaml'
-alias tmux-r0land-link='tmuxp load ~/.config/tmuxp/r0land-link.yaml'
+alias t-sess='tmuxp load ~/.config/tmuxp/dev.yaml'
 #networking
 alias public='curl wtfismyip.com/text'
 
